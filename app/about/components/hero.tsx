@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -10,6 +11,9 @@ export default function Hero() {
         Obcaecati dolorem, ipsum hic exercitationem deserunt ex fuga nihil sit ab laudantium rerum temporibus assumenda at voluptatum voluptates repellendus non alias iure totam consequatur, quam enim doloremque eveniet blanditiis. Reprehenderit.
         Dolor doloribus veniam explicabo quasi earum! Et quidem dolores quod corporis error obcaecati deleniti voluptas, a mollitia beatae perspiciatis nihil harum dolore sunt rem laborum alias commodi quia ratione minus.
        </p>
+       <div className="bg-white">
+       <Image src="/next.svg" alt="nextLogo" unoptimized width={100} height={100}/>
+       </div>
        <Button>お問い合わせ</Button>
         </div>
     </div>
